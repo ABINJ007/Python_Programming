@@ -53,7 +53,7 @@ Methods=>Any Function defined inside a class, Based on how methods work with
 
          1)class methods:
             ->which belongs to the class itself , not to the instance
-            ->This methof works on class level data and not on instance
+            ->This method works on class level data and not on instance
             ->it receives the class reference as the 1st parameter refered to
               class
             ->class method id declared using @classmethod decorator just above
@@ -74,7 +74,8 @@ Methods=>Any Function defined inside a class, Based on how methods work with
 2)Instance methods:
     ->which belongs to the instance
     ->this method works on instance specific data
-    ->it receives the current instance reference as the 1st parameter referred to self
+    ->it receives the current instance reference as the 1st parameter referred
+      to self
     Syntax:
         class ClassName:
             def method_name(self,para1,para2,......):
@@ -82,8 +83,9 @@ Methods=>Any Function defined inside a class, Based on how methods work with
         reference=ClassName()
         reference.method_name(arg1,args,...)
 
-    ->if there are "n" parameters in the instance method, we shud pass "n-1" arguments
-      during the instance method calling
+    ->if there are "n" parameters in the instance method, we shud pass "n-1"
+     arguments during the instance method calling
+      
     ->A instance method can ACESS and MODIFY the instance variables
     ->accessing a instance method using
             instanceref.instancemethodname()
