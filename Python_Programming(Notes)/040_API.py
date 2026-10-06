@@ -17,8 +17,19 @@ Tight Coupling:
  coupling through API(ie, abstract classes).
 
 
+Loose Coupling:
+    If a change in service provider does NOT force the user/client code to make
+    changes, then it is a case of loose coupling.
+    
+    Loose coupling is a good design principle because it allows the client code
+    to remain unchanged even when the service privider changes. This is achieved
+    by making the client depend on an API(i.e an abstract class rather than
+    directly depending on a particular service providers
+     
 
 
 
 
- '''
+
+
+
