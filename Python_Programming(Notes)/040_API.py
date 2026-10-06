@@ -24,7 +24,8 @@ Loose Coupling:
     Loose coupling is a good design principle because it allows the client code
     to remain unchanged even when the service privider changes. This is achieved
     by making the client depend on an API(i.e an abstract class rather than
-    directly depending on a particular service providers
+    directly depending on a particular service providers.
+'''
      
 
 
