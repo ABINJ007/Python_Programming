@@ -74,4 +74,53 @@ case5:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Raise Keyword:
+--------------
+    ->Keyword which is used to invoke or raise an exception type
+
+Syntax:
+    raise ExceptionName('Exection message')
+
+    ->raise keyword is followed by an instance of expcetion class which we want to
+      invoke
+    ->we can choose eithere predefined exception or custom execption
+
+
+who
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  '''
