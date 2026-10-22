@@ -4,7 +4,7 @@ AccessSpecifiers/Modifiers:
     ->these are used to specify the visibility or accessibility of variables or
     methods
 3Types
-1)Public
+    1)Public
     2)Protected
     3)Private
 
