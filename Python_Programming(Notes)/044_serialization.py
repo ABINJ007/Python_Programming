@@ -82,7 +82,6 @@ Unpickling:
         obj=pickle.load(f)
     -load() is a function of the pickle module that reads a byte stream from a binary file and converts
      it back into a python object.
-
-    
+'''
      
      
