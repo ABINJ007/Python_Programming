@@ -1,13 +1,13 @@
 '''
 == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == ==
 Abstraction:
-    -important oops principle, which is the process of "defininf required behaviour
+    -important oops principle, which is the process of "definetion required behaviour
      in parent class without providing full implementation and forcing the subclass
      to implement it".
 ----------------------------------------------------------------
 Abstract class(Incomplete class)
     ->It is a class that is meant ONLY for inheritance, becoz it CANNOT be
-      Instantiated(onkect creation is NOT possible,)
+      Instantiated(object creation is NOT possible,)
     ->abstract class is a idea/concept and is incomplete by design.
     ->shud have atleast 1 "abstract method".
     NOTE:
@@ -50,7 +50,7 @@ Concerte Class:
 Concerte Methods
 ->Methods that have complete implementation ans not decorated with @abstractmethod
 ->it can exist in abstract class and concrete class
-->there is No Enforcement to overrife the methods
+->there is No Enforcement to override the methods
 
 
 
